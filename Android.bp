@@ -5,6 +5,8 @@
 soong_namespace {
     imports: [
         "hardware/qcom-caf/sm8350",
+	"hardware/google/pixel/pixelstats",
+        "hardware/google/pixel/power-libperfmgr",
         "hardware/xiaomi",
         "vendor/qcom/opensource/display",
         "vendor/xiaomi/sm8350-common",
